@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="net.intervyaz.viewintro.HomeFragment"
-        android:label="Имя из графа"
+        android:label="Home"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/toDetails"
@@ -25,4 +25,11 @@
             app:argType="integer"
             app:nullable="false" />
     </fragment>
+
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="net.intervyaz.viewintro.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/settings_fragment" />
 </navigation>

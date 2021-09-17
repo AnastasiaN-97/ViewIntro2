@@ -9,7 +9,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import net.intervyaz.viewintro.databinding.FragmentHomeBinding
-import net.intervyaz.viewintro.databinding.MainFragmentBinding
 
 class HomeFragment : Fragment(R.layout.fragment_home), TicketsAdapter.TicketClickListener {
 
